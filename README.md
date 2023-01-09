@@ -17,7 +17,7 @@
 - 그 외 공유하고 싶은 문제, 풀리지 않은 문제가 있다면 스터디 시간에 함께 학습
 
 ## :date: 일정
-- [[1월 2주차] 이분탐색](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x13.md)
+- [week01] 이분탐색](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x13.md)
 
 ## :pushpin: Github 진행 방식
 
