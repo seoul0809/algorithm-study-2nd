@@ -1,0 +1,12 @@
+.metadata
+bin/
+tmp/
+*.class
+node_modules/
+dist/
+npm-debug.log
+yarn-error.log
+questions/
+
+# intellij configs
+.idea/
