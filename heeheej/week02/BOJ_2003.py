@@ -4,23 +4,18 @@
 
 import sys
 
-sys.stdin = open("input.txt", "r")
 input = sys.stdin.readline
-
 N, M = map(int, input().split())
 inputs = list(map(int, input().split()))
 
 left, right = 0, 0
 result = 0
+sum = 0
 for left in range(N):
-    sum = 0
-    right = left
     while sum < M and right < N:
         sum += inputs[right]
-
-        if sum < M:
-            right += 1
-        elif sum == M:
-            result += 1
-            break
+        right += 1
+    if sum == M:
+        result += 1
+    sum -= inputs[left]
 print(result)
