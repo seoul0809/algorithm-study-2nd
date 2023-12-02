@@ -1,4 +1,4 @@
-# PCCP 모의고사 1 1번 외톨이 알파벳
+# PCCP 모의고사 1 2번 체육대회
 # dfs + 백트래킹
 
 def solution(ability):
